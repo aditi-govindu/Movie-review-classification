@@ -1,6 +1,6 @@
+nltk
 numpy
 pandas
-nltk 
 regex
 seaborn
 sklearn
