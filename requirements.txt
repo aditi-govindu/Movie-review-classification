@@ -4,4 +4,4 @@ nltk
 regex
 seaborn
 sklearn
-pickle
+cloudpickle
