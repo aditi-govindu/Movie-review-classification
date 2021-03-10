@@ -1,7 +1,7 @@
 numpy
 pandas
 nltk 
-re 
+regex
 seaborn
 sklearn
 pickle
