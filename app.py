@@ -15,11 +15,6 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 # For preprocessing reviews
 import nltk 
-# Downloading stopwords
-nltk.download('stopwords')
-from nltk.corpus import stopwords 
-# Stemming of words
-from nltk.stem.porter import PorterStemmer 
 # To use Regular expression for clean up of text
 import re 
 # Plotting a graph for dataset
@@ -30,6 +25,11 @@ from sklearn.naive_bayes import GaussianNB,MultinomialNB
 from sklearn.metrics import confusion_matrix,accuracy_score,classification_report
 # Save trained model to pickle 
 import pickle
+# Downloading stopwords
+nltk.download('stopwords')
+from nltk.corpus import stopwords 
+# Stemming of words
+from nltk.stem.porter import PorterStemmer 
 
 # Read the dataset
 dataset = pd.read_table('moviereviews.tsv')
