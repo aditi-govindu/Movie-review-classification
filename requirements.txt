@@ -1,8 +1,9 @@
-numpy==1.19.5
-pandas==1.1.5
-matplotlib==3.2.2
-nltk==3.5
-regex==2019.12.20
-seaborn==0.11.1
-scikit-learn==0.22.2.post1
-cloudpickle==1.3.0
+numpy
+pandas
+nltk 
+nltk.corpus
+nltk.stem.porter
+re 
+seaborn
+sklearn
+pickle
