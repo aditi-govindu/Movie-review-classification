@@ -31,7 +31,7 @@ from sklearn.metrics import confusion_matrix,accuracy_score,classification_repor
 import pickle
 
 # Read the dataset
-dataset = pd.read_table('https://raw.githubusercontent.com/prateek22sri/Sentiment-analysis/master/labeledTrainData.tsv')
+dataset = pd.read_table('moviereviews.tsv')
 # Return the shape of data 
 print("Shape:",dataset.shape)
 print()
