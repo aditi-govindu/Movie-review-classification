@@ -1,8 +1,6 @@
 numpy
 pandas
 nltk 
-nltk.corpus
-nltk.stem.porter
 re 
 seaborn
 sklearn
