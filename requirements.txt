@@ -1,7 +1,4 @@
 streamlit
-numpy
-pandas
 regex
-seaborn
-sklearn
 cloudpickle
+pandas
