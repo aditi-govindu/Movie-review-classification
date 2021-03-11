@@ -3,7 +3,6 @@ import pandas as pd
 import pickle
 import streamlit as st
 import re
-import sklearn
 
 # Display on webpage
 st.title("Movie review classification")
