@@ -26,7 +26,7 @@ from sklearn.metrics import confusion_matrix,accuracy_score,classification_repor
 # Save trained model to pickle 
 import pickle
 # Downloading stopwords
-nltk.download('stopwords')
+#nltk.download('stopwords')
 from nltk.corpus import stopwords 
 # Stemming of words
 from nltk.stem.porter import PorterStemmer 
